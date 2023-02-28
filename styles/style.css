@@ -1,0 +1,523 @@
+@import url(../fonts/Inter_Web/inter.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  background-color: #2a2c2f;
+}
+
+/*
+a {
+  transition: opacity 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+
+.enlaces__hover {
+  transition: opacity 0.3s;
+}
+
+.enlaces__hover:hover {
+  opacity: 0.5;
+}
+*/
+
+/* inicio sección header */
+
+.header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 34px 0 90px 0;
+}
+
+.header__logo {
+  height: 70px;
+  width: 270px;
+}
+
+/* fin sección header */
+
+/* inicio sección lead */
+
+.lead {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead__title {
+  max-width: 793px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.lead__subtitle {
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin: 32px 0 64px 0;
+}
+
+.lead__image {
+  height: 615px;
+  width: 100%;
+  max-width: 984px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* fin sección lead */
+
+/* inicio sección intro */
+
+.intro {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0;
+}
+
+.intro__content {
+  width: 100%;
+  max-width: 1017px;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.intro__paragraph {
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+
+.intro__paragraph_display-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.intro__paragraph-author {
+  position: absolute;
+  right: 0;
+  top: 80%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+/* fin sección intro */
+
+/* inicio sección photo-grid */
+
+/* inicio sección photo-grid */
+
+/* inicio sección techniques */
+
+.techniques {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  width: 240px;
+  padding-top: 60px;
+}
+
+.cards__item:nth-child(3n + 2) {
+  margin: 0 100px;
+}
+
+.cards__image {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  box-sizing: border-box;
+  margin: 0 40px 43px 40px;
+}
+
+.cards__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.cards__description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
+/* inicio sección techniques */
+
+/* inicio sección video */
+.video {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video__iframes {
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+/* fin sección video */
+
+/* inicio sección oakley*/
+
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
+
+/* fin sección oakley*/
+
+/*inicio sección digits*/
+
+.digits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 24%;
+}
+
+.table__heading {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.table__text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.table__text_margin_top {
+  margin-top: 20px;
+}
+/*fin sección digits*/
+
+/*inicio sección feynman*/
+
+.feynman {
+  height: 790px;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+  background-image: url("/images/feynman.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 867px 637px;
+}
+
+.feynman__title {
+  width: 775px;
+  margin: 0 auto 70px auto;
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.feynman__subtitle {
+  width: 347px;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+}
+
+/*
+.feynman__background-image {
+  height: 637px;
+  width: 867px;
+  border: 1px solid;
+}
+*/
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+/*fin sección feynman*/
+
+/* inicio sección oakley*/
+
+.khan {
+  display: flex;
+  justify-content: center;
+  padding-top: 105px;
+  background-color: #f2f2f2;
+}
+
+.khan__container {
+  width: 80%;
+  position: relative;
+}
+
+.khan__autor {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+}
+
+.khan__title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 50px;
+}
+
+.khan__quote {
+  width: 790px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  margin-bottom: 36px;
+}
+
+.khan__quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.15;
+  margin-bottom: 68px;
+}
+
+.khan__book-container {
+  height: 620px;
+  width: 608px;
+}
+
+.khan__book-pick {
+  width: 100%;
+}
+
+.khan__buy-link {
+  position: absolute;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+  text-decoration: none;
+  color: #2f80ed;
+  left: 50%;
+}
+
+/* fin sección oakley*/
+
+/* inicio sección kaufman*/
+.kaufman {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*color: white;
+  */
+  background-color: black;
+  padding: 90px 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.section-title_theme_dark {
+  color: white;
+  line-height: 1.15;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  width: 1100px;
+  color: white;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  /*margin-top: 80px;*/
+}
+
+.table__heading_theme_dark {
+  color: white;
+  line-height: 1.15;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  height: 636px;
+  width: 660px;
+  position: absolute;
+  top: 0;
+  right: -160px;
+  z-index: -1;
+  animation: rotacion 20s linear infinite;
+}
+
+/*fin sección kaufman*/
+
+/* inicio sección resources*/
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 217px 0;
+}
+
+.resources__logo-zone {
+  display: flex;
+  margin-top: 80px;
+}
+
+.resources__logo {
+  height: 38px;
+  width: 270px;
+}
+/* inicio sección resources*/
+
+/* inicio sección footer */
+
+.footer {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+.footer__copyright {
+  width: fit-content;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+/* fin sección footer */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* estilos para smartphones */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  /* estilos para tabletas */
+}
+
+/*
+
+@media screen and (min-width: 1280px) {
+  /* estilos para tabletas en modo horizontal 
+}
+
+*/
