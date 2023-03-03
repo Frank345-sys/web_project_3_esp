@@ -1,5 +1,4 @@
 @import url(../fonts/Inter_Web/inter.css);
-
 * {
   margin: 0;
   padding: 0;
@@ -11,25 +10,6 @@
   background-color: #2a2c2f;
 }
 
-/*
-a {
-  transition: opacity 0.3s;
-}
-
-a:hover {
-  opacity: 0.5;
-}
-
-
-.enlaces__hover {
-  transition: opacity 0.3s;
-}
-
-.enlaces__hover:hover {
-  opacity: 0.5;
-}
-*/
-
 /* inicio sección header */
 
 .header {
@@ -37,12 +17,14 @@ a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 34px 0 90px 0;
+  padding-top: 34px;
 }
 
 .header__logo {
-  height: 70px;
-  width: 270px;
+  height: 100%;
+  max-height: 70px;
+  width: 100%;
+  max-width: 270px;
 }
 
 /* fin sección header */
@@ -59,12 +41,14 @@ a:hover {
 }
 
 .lead__title {
+  width: 100%;
   max-width: 793px;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 32px;
 }
 
 .lead__subtitle {
@@ -74,11 +58,12 @@ a:hover {
   line-height: 36px;
   text-align: center;
   color: #ffffff;
-  margin: 32px 0 64px 0;
+  margin-bottom: 64px;
 }
 
 .lead__image {
-  height: 615px;
+  height: 100%;
+  max-height: 615px;
   width: 100%;
   max-width: 984px;
   -webkit-filter: grayscale(100%);
@@ -93,18 +78,19 @@ a:hover {
   height: auto;
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 90px 0;
 }
 
 .intro__content {
+  height: auto;
   width: 100%;
   max-width: 1017px;
 }
 
 .intro__title {
+  width: 100%;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -277,6 +263,8 @@ button {
   justify-content: center;
   align-items: center;
   padding: 90px 0;
+  overflow: hidden;
+  position: relative;
 }
 
 .cover__title {
@@ -308,6 +296,8 @@ button {
 }
 
 .background-image {
+  height: fit-content;
+  width: fit-content;
   opacity: 0.7;
   transition: opacity 0.3s;
   position: absolute;
