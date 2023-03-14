@@ -19,11 +19,17 @@ Este proyecto es el resultado de lo aprendido del sprint 1 y el sprint 2, del bo
 
 ## Vistas previas del proyecto
 
-- ### Vistas diseño pc ![preview de web pc](/images/full-screen.png)
+### Vistas diseño pc
 
-- ### Vistas diseño para tablets ![preview de web tablet](/images/tablet-screen.png)
+![preview de web pc](/images/full-screen.png)
 
-- ### Vistas diseño para dispositivos móviles ![preview de web móvil](/images/movil-screen.png)
+### Vistas diseño para tablets
+
+![preview de web tablet](/images/tablet-screen.png)
+
+### Vistas diseño para dispositivos móviles
+
+![preview de web móvil](/images/movil-screen.png)
 
 ## Nota
 
