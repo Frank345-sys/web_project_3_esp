@@ -1,0 +1,25 @@
+.places {
+  height: fit-content;
+  display: grid;
+  row-gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .places {
+    row-gap: 52px;
+    padding: 88px 24px 0px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .places {
+    row-gap: unset;
+    padding: 60px 16px 0px 16px;
+  }
+}

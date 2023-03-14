@@ -1,0 +1,12 @@
+.content-titles {
+  align-self: flex-end;
+  height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .content-titles {
+    margin-bottom: 30px;
+  }
+}

@@ -1,10 +1,7 @@
 .header {
-  height: 100vh;
+  height: auto;
   width: 100%;
-  min-height: 600px;
-  max-height: 756px;
-  /* parameters for the header section */
   display: flex;
-  overflow: hidden;
-  position: relative;
+  justify-content: center;
+  padding-top: 34px;
 }

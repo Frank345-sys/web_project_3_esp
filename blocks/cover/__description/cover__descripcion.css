@@ -1,0 +1,22 @@
+.cover__descripcion {
+  width: 100%;
+  max-width: 280px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 32px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .cover__descripcion {
+    max-width: 280px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+}

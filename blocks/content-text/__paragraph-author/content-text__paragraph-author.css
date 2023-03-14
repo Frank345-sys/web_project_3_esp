@@ -1,0 +1,13 @@
+.content-text__paragraph-author {
+  position: absolute;
+  right: 0;
+  top: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .content-text__paragraph-author {
+    top: 100%;
+  }
+}

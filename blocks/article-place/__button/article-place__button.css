@@ -1,0 +1,30 @@
+.article-place__button {
+  height: 48px;
+  width: 355px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .article-place__button {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .article-place__button {
+    width: 100%;
+    max-width: unset;
+    min-width: 288px;
+    font-size: 14px;
+    line-height: 17px;
+    justify-self: center;
+    margin-top: 8px;
+  }
+}

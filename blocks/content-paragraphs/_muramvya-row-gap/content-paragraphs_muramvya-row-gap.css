@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .content-paragraphs_muramvya-row-gap {
+    row-gap: 11px;
+  }
+}

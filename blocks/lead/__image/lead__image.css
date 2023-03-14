@@ -1,0 +1,16 @@
+.lead__image {
+  height: 100%;
+  max-height: 615px;
+  width: 100%;
+  max-width: 984px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .lead__image {
+    max-width: unset;
+  }
+}

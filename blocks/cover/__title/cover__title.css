@@ -1,0 +1,22 @@
+.cover__title {
+  width: 100%;
+  max-width: 656px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #fffdfd;
+  margin-bottom: 32px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,19 @@
+.article-place__title_with {
+  min-width: 584px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .article-place__title_with {
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para tabletas */
+
+  .article-place__title_with {
+    min-width: unset;
+  }
+}

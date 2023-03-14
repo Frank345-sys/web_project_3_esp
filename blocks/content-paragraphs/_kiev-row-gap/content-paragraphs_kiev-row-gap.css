@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .content-paragraphs_kiev-row-gap {
+    row-gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .content-paragraphs_kiev-row-gap {
+    row-gap: 7px;
+  }
+}

@@ -1,16 +1,6 @@
+@import url(../fonts/Inter_Web/inter.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
-
-/*-----------------------------------------------------logo------------------------------------------------------*/
-/*bloque*/
-@import url(../blocks/logo/logo.css);
-/*bloque*/
-
-/*elementos*/
-@import url(../blocks/logo/_place/logo_place_header.css);
-@import url(../blocks/logo/_place/logo_place_footer.css);
-/*elementos*/
-/*---------------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------------------header-----------------------------------------------------*/
 /*bloque*/
@@ -19,185 +9,157 @@
 
 /*elementos*/
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__main-illustration/header__main-illustration.css);
-@import url(../blocks/header/__square/header__square.css);
 /*elementos*/
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*---------------------------------------------------rotacion-----------------------------------------------------*/
+/*---------------------------------------------------content-----------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/rotacion/rotacion.css);
-/*bloque*/
-/*---------------------------------------------------------------------------------------------------------------*/
-
-/*--------------------------------------------------description---------------------------------------------------*/
-/*bloque*/
-@import url(../blocks/description/description.css);
+@import url(../blocks/content/content.css);
 /*bloque*/
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*--------------------------------------------------two-columns--------------------------------------------------*/
+/*----------------------------------------------------lead-------------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/lead/lead.css);
+/*bloque*/
+
+/*elementos*/
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+/*elementos*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------intro------------------------------------------------------*/
+/*bloque*/
+@import url(../blocks/intro/intro.css);
+/*bloque*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------content-text--------------------------------------------------*/
+/*bloque*/
+@import url(../blocks/content-text/content-text.css);
 /*bloque*/
 
 /*elementos y modificadores*/
-@import url(../blocks/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/two-columns/__paragraph/_margin/two-columns__paragraph_margin_botton.css); /*<--modificador*/
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/content-text/__title/content-text__title.css);
+@import url(../blocks/content-text/__paragraph/content-text__paragraph.css);
+@import url(../blocks/content-text/__paragraph/_display-flex/content-text__paragraph_display-flex.css); /*<--modificador*/
+@import url(../blocks/content-text/__paragraph-author/content-text__paragraph-author.css);
 /*elementos y modificadores*/
-/*---------------------------------------------------------------------------------------------------------------*/
 
-/*--------------------------------------------------techniques----------------------------------------------------*/
-/*bloque*/
-@import url(../blocks/techniques/techniques.css);
-/*bloque*/
-/*---------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*/
 
-/*----------------------------------------------------cards-------------------------------------------------------*/
+/*--------------------------------------------------photo-grid----------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/cards/cards.css);
+@import url(../blocks/photo-grid/photo-grid.css);
 /*bloque*/
+/*----------------------------------------------------------------------------------------------------------------*/
 
-/*elementos*/
-@import url(../blocks/cards/__item/cards__item.css);
-@import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__description/cards__description.css);
-/*elementos*/
-/*---------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------video------------------------------------------------------*/
+/*------------------------------------------------content-photo---------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/video/video.css);
+@import url(../blocks/content-photo/content-photo.css);
 /*bloque*/
 
 /*elementos*/
-@import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/content-photo/__item/content-photo__item.css);
 /*elementos*/
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*----------------------------------------------------oakley-----------------------------------------------------*/
+/*----------------------------------------------------button-----------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/oakley/oakley.css);
-/*bloque*/
-/*---------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------digits------------------------------------------------------*/
-/*bloque*/
-@import url(../blocks/digits/digits.css);
+@import url(../blocks/button/button.css);
 /*bloque*/
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*-------------------------------------------------section-title--------------------------------------------------*/
+/*----------------------------------------------------places-----------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/places/places.css);
 /*bloque*/
-
-/*modificador*/
-@import url(../blocks/section-title/_theme/section-title_theme_dark.css); /*<--modificador*/
-/*modificador*/
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*-----------------------------------------------section-subtitle-------------------------------------------------*/
+/*------------------------------------------------article-places-------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/section-subtitle/section-subtitle.css);
-/*bloque*/
-
-/*modificador*/
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css); /*<--modificador*/
-/*modificador*/
-/*---------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------table------------------------------------------------------*/
-/*bloque*/
-@import url(../blocks/table/table.css);
+@import url(../blocks/article-place/article-place.css);
 /*bloque*/
 
 /*elementos y modificadores*/
-@import url(../blocks/table/_theme/table_theme_dark.css); /*<--modificador*/
-@import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css); /*<--modificador*/
-@import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css); /*<--modificador*/
-@import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__text/_margin/table__text_margin_top.css); /*<--modificador*/
-@import url(../blocks/table/__text/_theme/table__text_theme_dark.css); /*<--modificador*/
+@import url(../blocks/article-place/__title/article-place__title.css);
+@import url(../blocks/article-place/__title/_with/article-place__title_with.css); /*<--modificador*/
+@import url(../blocks/article-place/__title/_align-self/article-place__title_align-self.css); /*<--modificador*/
+@import url(../blocks/article-place/__title/_position/article-place__title_position.css); /*<--modificador*/
+@import url(../blocks/article-place/__image/article-place__image\ .css);
+@import url(../blocks/article-place/__button/article-place__button.css);
+/*elementos y modificadores*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------content-titles-------------------------------------------------*/
+/*bloque*/
+@import url(../blocks/content-titles/content-titles.css);
+/*bloque*/
+
+/*modificadores del bloque*/
+@import url(../blocks/content-titles/_berea-margin-bottom/content-titles_berea-margin-bottom.css); /*<--modificador*/
+@import url(../blocks/content-titles/_muramvya-margin-bottom/content-titles_muramvya-margin-bottom.css); /*<--modificador*/
+/*modificadores del bloque*/
+
+/*elementos*/
+@import url(../blocks/content-titles/__title/content-titles__title.css);
+@import url(../blocks/content-titles/__title-author/content-titles__title-author.css);
+/*elementos*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------content-paragraphs-----------------------------------------------*/
+
+/*modificadores del bloque*/
+@import url(../blocks/content-paragraphs/_kiev-grid-row/content_paragraphs_kiev-grid-row.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_criccieth-grid-row/content-paragraphs_criccieth-grid-row.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_berea-grid-row/content-paragraphs_berea-grid-row.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_muramvya-grid-row/content-paragraphs_muramvya-grid-row.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_xalapa-grid-row/content-paragraphs_xalapa-grid-row.css); /*<--modificador*/
+
+@import url(../blocks/content-paragraphs/_kiev-row-gap/content-paragraphs_kiev-row-gap.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_criccieth-row-gap/content-paragraphs_criccieth-row-gap.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_berea-row-gap/content-paragraphs_berea-row-gap.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_muramvya-row-gap/content-paragraphs_muramvya-row-gap.css); /*<--modificador*/
+@import url(../blocks/content-paragraphs/_xalapa-row-gap/content-paragraphs_xalapa-row-gap.css); /*<--modificador*/
+/*modificadores del bloque*/
+
+/*bloque*/
+@import url(../blocks/content-paragraphs/content-paragraphs.css);
+/*bloque*/
+
+/*elementos*/
+@import url(../blocks/content-paragraphs/__paragraph/content-paragraphs__paragraph.css);
+/*elementos*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------cover------------------------------------------------------*/
+/*bloque*/
+@import url(../blocks/cover/cover.css);
+/*bloque*/
+
+/*elementos y modificadores*/
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__description/cover__descripcion.css);
+@import url(../blocks/cover/__button/cover__button.css);
 /*elementos y modificadores*/
 /*---------------------------------------------------------------------------------------------------------------*/
 
-/*---------------------------------------------------feynman-----------------------------------------------------*/
+/*-----------------------------------------------background-image------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/background-image/background-image.css);
 /*bloque*/
-
-/*elementos*/
-@import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
-@import url(../blocks/feynman/__link/feynman__link.css);
-/*elementos*/
-/*---------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------khan-------------------------------------------------------*/
-/*bloque*/
-@import url(../blocks/khan/khan.css);
-/*bloque*/
-
-/*elementos*/
-@import url(../blocks/khan/__container/khan__container.css);
-@import url(../blocks/khan/__autor/khan__autor.css);
-@import url(../blocks/khan/__title/khan__title.css);
-@import url(../blocks/khan/__quote/khan__quote.css);
-@import url(../blocks/khan/__quote-author/khan__quote-author.css);
-@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
-@import url(../blocks/khan/__book-container/khan__book-container.css);
-@import url(../blocks/khan/__book-pick/khan__book-pick.css);
-@import url(../blocks/khan/__buy-link/khan__buy-link.css);
-/*elementos*/
-/*---------------------------------------------------------------------------------------------------------------*/
-
-/*--------------------------------------------------kaufman------------------------------------------------------*/
-/*bloque*/
-@import url(../blocks/kaufman/kaufman.css);
-/*bloque*/
-
-/*elementos*/
-@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
-/*elementos*/
 /*---------------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------------------resources_---------------------------------------------------*/
 /*bloque*/
-@import url(../blocks/resources/resources.css);
-/*bloque*/
-
-/*elementos*/
-@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
-@import url(../blocks/resources/__logo/resources__logo.css);
-/*elementos*/
-/*---------------------------------------------------------------------------------------------------------------*/
-
-/*---------------------------------------------------footer------------------------------------------------------*/
-/*bloque*/
 @import url(../blocks/footer/footer.css);
 /*bloque*/
 
-/*elementos y modificadores*/
-@import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css); /*<--modificador*/
-@import url(../blocks/footer/__column/_content/footer__column_content_about.css); /*<--modificador*/
-@import url(../blocks/footer/__column/_content/footer__column_content_social.css); /*<--modificador*/
-@import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__social-icons/footer__social-icons.css);
-/*elementos y modificadores*/
+/*elementos*/
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+/*elementos*/
 /*---------------------------------------------------------------------------------------------------------------*/

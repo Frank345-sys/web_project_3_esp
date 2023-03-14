@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .content-titles_berea-margin-bottom {
+    margin-bottom: 24px;
+  }
+}

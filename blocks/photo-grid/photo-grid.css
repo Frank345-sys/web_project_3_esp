@@ -1,0 +1,22 @@
+.photo-grid {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 0 48px 92px 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* estilos para tabletas */
+
+  .photo-grid {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* estilos para smartphones */
+
+  .photo-grid {
+    padding: 0 16px;
+  }
+}
