@@ -35,7 +35,11 @@ Este proyecto es el resultado de lo aprendido del sprint 1 y el sprint 2, del bo
 
 Toda la página web fue diseñado, en base al documentos proporcionado por el bootcamp, para la realicación del proyecto.
 
-- [Enlace al proyecto en Figma utilizado](https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1)
+- [Enlace al proyecto en Figma utilizado.](https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1)
+
+Para ver el resultado del proyecto publicado en github pages, da click al siguiente enlace.
+
+- [Enlace al citio web.](https://frank345-sys.github.io/web_project_3_esp/)
 
 ## Autor
 
